@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jbi xmlns="http://java.sun.com/xml/ns/jbi" version="1.0">
+  <service-assembly>
+    <identification>
+      <name>tutorial-camel-sa</name>
+      <description>Apache ServiceMix :: Service Assembly</description>
+    </identification>
+    <service-unit>
+      <identification>
+        <name>tutorial-camel-su</name>
+        <description>tutorial-camel-su</description>
+      </identification>
+      <target>
+        <artifacts-zip>tutorial-camel-su-1.0-SNAPSHOT.zip</artifacts-zip>
+        <component-name>servicemix-camel</component-name>
+      </target>
+    </service-unit>
+  </service-assembly>
+</jbi>
